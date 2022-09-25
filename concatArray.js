@@ -1,7 +1,6 @@
 const { template } = require('@babel/core')
 
 function concatArray(array1, array2) {
-<<<<<<< HEAD
   if((array1 == null || undefined) && (array2 == null||undefined)){
     return undefined
     // console.log(undefined)
@@ -20,9 +19,5 @@ else{
     // console.log(arr)
     return arr
 }
-  
-=======
-  console.log ("Hello ")
->>>>>>> ea3dcde10303355a4bb8bf0196435eb9941eacb0
 }
 module.exports = concatArray
